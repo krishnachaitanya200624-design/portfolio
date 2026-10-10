@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Peketi Sushmitha - CSE Data Science Portfolio">
+  <meta name="theme-color" content="#080a10">
+
+  <title>Peketi Sushmitha | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="dark">
+
+  <div class="grid-bg"></div>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="nav container">
+      <a class="brand" href="#home">PS<span>.</span></a>
+
+      <button class="menu" type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#profiles">Profiles</a>
+        <a href="#contact">Contact</a>
+
+        <button id="themeToggle" class="theme-toggle"
+          type="button" aria-label="Switch theme">
+          ☀️ Light
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="hero container">
+
+      <div class="hero-copy reveal">
+        <div class="label">CSE • DATA SCIENCE • 3RD YEAR</div>
+
+        <h1>Hi, I'm<br><span>Peketi Sushmitha.</span></h1>
+
+        <p>
+          I'm a Computer Science student specializing in Data Science,
+          passionate about programming, problem-solving and building
+          useful technology projects.
+        </p>
+
+        <div class="actions">
+          <a class="btn mainbtn" href="#projects">
+            Explore my work ↗
+          </a>
+
+          <a class="btn outline" href="assests/resume.pdf" download>
+            Download Resume
+          </a>
+        </div>
+
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/peketi-sushmitha-71a6633a2"
+             target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+
+          <a href="https://leetcode.com/u/peketi-sushmitha/"
+             target="_blank" rel="noopener noreferrer">
+            LeetCode ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="ring"></div>
+
+        <div class="initials">
+          <img src="assets/profile.jpg" alt="Peketi Sushmitha">
+        </div>
+
+        <div class="float f1">
+          <b>8.55</b>
+          <small>CGPA</small>
+        </div>
+
+        <div class="float f2">
+          <b>2028</b>
+          <small>Graduation</small>
+        </div>
+
+        <div class="status">
+          <small>FOCUS</small>
+          <b>Code + Data Science</b>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+
+      <div class="heading reveal">
+        <span>01</span>
+        <h2>About me</h2>
+      </div>
+
+      <div class="two-col">
+
+        <div class="copy reveal">
+          <p>
+            I'm <strong>Peketi Sushmitha</strong>, a third-year
+            B.Tech student specializing in
+            <strong>CSE (Data Science)</strong> at NSRIT.
+          </p>
+
+          <p>
+            I have an interest in Python, Java, SQL and web development.
+            I'm continuously improving my technical knowledge,
+            programming skills and problem-solving abilities.
+          </p>
+        </div>
+
+        <div class="facts reveal">
+          <div>
+            <small>Degree</small>
+            <b>B.Tech — CSE (Data Science)</b>
+          </div>
+
+          <div>
+            <small>College</small>
+            <b>NSRIT</b>
+          </div>
+
+          <div>
+            <small>CGPA</small>
+            <b>8.55</b>
+          </div>
+
+          <div>
+            <small>Graduation</small>
+            <b>2028</b>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+
+      <div class="heading reveal">
+        <span>02</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skill-grid reveal">
+
+        <div class="skill">
+          <b>Python</b>
+          <small>Programming fundamentals</small>
+        </div>
+
+        <div class="skill">
+          <b>Java</b>
+          <small>Object-oriented programming</small>
+        </div>
+
+        <div class="skill">
+          <b>SQL</b>
+          <small>Database queries</small>
+        </div>
+
+        <div class="skill">
+          <b>HTML</b>
+          <small>Web page structure</small>
+        </div>
+
+        <div class="skill">
+          <b>CSS</b>
+          <small>Styling and responsive layouts</small>
+        </div>
+
+        <div class="skill">
+          <b>JavaScript</b>
+          <small>Interactive web development</small>
+        </div>
+
+        <div class="skill">
+          <b>Git</b>
+          <small>Version control</small>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+
+      <div class="heading reveal">
+        <span>03</span>
+        <h2>Projects</h2>
+      </div>
+
+      <p class="section-note reveal">
+        Projects will be added here as they are completed.
+      </p>
+
+      <div id="projectGrid" class="project-grid reveal"></div>
+
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section container">
+
+      <div class="heading reveal">
+        <span>04</span>
+        <h2>Certificates</h2>
+      </div>
+
+      <p class="section-note reveal">
+        Training and course completion certificates.
+      </p>
+
+      <div id="certificateGrid" class="certificate-grid reveal"></div>
+
+    </section>
+
+    <!-- PROFILES -->
+    <section id="profiles" class="section container">
+
+      <div class="heading reveal">
+        <span>05</span>
+        <h2>Profiles</h2>
+      </div>
+
+      <div class="profiles reveal">
+
+        <a href="https://www.linkedin.com/in/peketi-sushmitha-71a6633a2"
+           target="_blank" rel="noopener noreferrer">
+          <span>
+            <strong>LinkedIn</strong>
+            <small>Professional profile</small>
+          </span>
+          <span class="profile-arrow">↗</span>
+        </a>
+
+        <a href="https://leetcode.com/u/peketi-sushmitha/"
+           target="_blank" rel="noopener noreferrer">
+          <span>
+            <strong>LeetCode</strong>
+            <small>Coding and problem solving</small>
+          </span>
+          <span class="profile-arrow">↗</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+
+      <div class="contact reveal">
+        <div>
+          <div class="label">LET'S CONNECT</div>
+
+          <h2>Let's build something useful.</h2>
+
+          <p>
+            Open to learning opportunities, internships and collaborative projects.
+          </p>
+        </div>
+
+        <a class="btn mainbtn"
+           href="#"
+           target="_blank" rel="noopener noreferrer">
+          Connect with me ↗
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+
+      <span>© 2026 Peketi Sushmitha</span>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/peketi-sushmitha-71a6633a2"
+           target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+        <a href="https://leetcode.com/u/peketi-sushmitha/"
+           target="_blank" rel="noopener noreferrer">LeetCode</a>
+      </div>
+
+      <span>HTML • CSS • JavaScript</span>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
